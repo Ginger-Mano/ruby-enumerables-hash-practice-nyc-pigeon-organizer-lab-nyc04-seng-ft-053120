@@ -12,5 +12,6 @@ def nyc_pigeon_organizer(data)
         new_hash[name][key] << inner_key.to_s #return the full hash with the values pushed in as a string
       end
     end
+    binding.pry
   end
 end
